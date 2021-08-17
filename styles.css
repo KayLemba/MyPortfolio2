@@ -4,20 +4,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
-}
-
-html {
-  overflow-x: hidden;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #e5e5e5;
-}
-
-.white {
-  background-color: #fff;
 }
 
 .text {
@@ -26,19 +16,17 @@ body {
   margin-top: 5em;
 }
 
-.salutation {
+h1 {
   font-size: 40px;
   font-weight: 700;
-  width: 80%;
+  width: 60%;
   color: #172b4d;
   line-height: 52px;
-  padding: 0%;
 }
 
 .paragraph1 {
   margin: 15px 0;
-  width: 80%;
-  margin-left: 0;
+  width: auto;
 }
 
 .lets-connect {
@@ -48,26 +36,18 @@ body {
   margin-left: 0%;
 }
 
-.logo a {
-  cursor: pointer;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 20px;
-  color: #6070ff;
-  background-color: #fff;
-}
-
 .buttons li {
   display: inline-block;
   margin-right: 20px;
   margin-top: 25px;
-  margin-left: 0%;
+}
+
+.logo a {
+  text-decoration: none;
 }
 
 .buttons li a {
   cursor: pointer;
-  text-decoration: none;
 }
 
 .menu-icon {
@@ -84,14 +64,18 @@ body {
   align-items: center;
 }
 
+.logo {
+  cursor: pointer;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  color: #6070ff;
+}
+
 .first-section {
   background-image: url('./images/background.png');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  background-color: #fff;
-  margin-bottom: 50px;
-  padding-top: 50px;
-  border: 1px solid white;
-  border-bottom-right-radius: 110px;
 }
