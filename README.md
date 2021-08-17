@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Mobile Skeleton Project For Microverse By Kalolo Chola Lemba
+# Mobile Portfolio Project For Microverse By Kalolo Chola Lemba
 
 > This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
 
-![screenshot](mobileskeleton.png)
+![screenshot](mobileworkflow.png)
 
 Additional description about the project and its features.
 
@@ -12,11 +12,6 @@ Additional description about the project and its features.
 
 - Html
 - css
-
-
-
-
-## Getting Started
 
 **Instructions on how to access my project locally.**
  To Access my project locally please follow the following instructions;
