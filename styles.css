@@ -16,12 +16,14 @@ body {
   margin-top: 5em;
 }
 
-h1 {
+.salutation {
   font-size: 40px;
   font-weight: 700;
-  width: 60%;
+  width: auto;
+  height: 150px;
   color: #172b4d;
   line-height: 52px;
+  padding-right: 20px;
 }
 
 .paragraph1 {
