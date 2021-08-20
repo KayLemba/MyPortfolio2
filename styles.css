@@ -98,29 +98,27 @@ body {
   border-bottom-right-radius: 110px;
 }
 
-.grid-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  gap: 65px;
-  place-items: center;
-  margin-bottom: 58px;
-}
-
 .work-section {
   display: -ms-grid;
   display: grid;
-  padding: 33px;
-  margin: 30px;
-  border: 2px solid #dfe1e6;
-  border-radius: 16px;
-  box-sizing: border-box;
-  background-color: #fff;
+  width: 100%;
+  gap: 40px;
+  place-items: center;
+  margin-bottom: 58px;
 }
 
 .project-card {
   display: flex;
   flex-direction: column;
+  background: #fff;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 16px;
+}
+
+.project-card img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .head {
