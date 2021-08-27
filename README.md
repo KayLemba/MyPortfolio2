@@ -4,13 +4,7 @@
 
 > This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
 # DESKTOP VERSION
-![screenshot](./images/desktop1.png)
-![screenshot](./images/desktop2.png)
-![screenshot](./images/desktop3.png)
-![screenshot](./images/desktop4.png)
-![screenshot](./images/desktop5.png)
-![screenshot](./images/deskto6.png)
-![screenshot](./images/desktop7.png)
+![screenshot](./images/Desktopworkflow.png)
 
 Additional description about the project and its features.
 In this project I added an about me then lastly I added a contact me form.
