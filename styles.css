@@ -330,8 +330,7 @@ a .btn-two {
 
 .language {
   display: flex;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 10px;
   margin-bottom: 10px;
   background-color: #f6f6f9;
   border-radius: 8px;
@@ -448,7 +447,7 @@ a .btn-two {
 
   .logo {
     display: inline-block;
-    margin-left: 80px;
+    margin-left: 155px;
     padding-left: 0;
   }
 
@@ -501,7 +500,7 @@ a .btn-two {
 
   .about-grid {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .section-about {
@@ -550,15 +549,17 @@ a .btn-two {
   .work-section {
     width: auto;
     height: min-content;
+    gap: 75px;
+    margin: 90px 0;
   }
 
   .text {
-    margin: 0 100px;
+    margin: 0 200px;
   }
 
   .about-grid {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .project-card {
@@ -667,6 +668,7 @@ a .btn-two {
     font-weight: bold;
     line-height: 52px;
     font-size: 40px;
+    margin-top: 30px;
     font-family: poppins, sans-serif;
   }
 
@@ -719,6 +721,10 @@ a .btn-two {
     margin-right: 10px;
   }
 
+  .skills-section {
+    margin-left: 20px;
+  }
+
   .instruction-show {
     width: auto;
     height: auto;
@@ -727,7 +733,11 @@ a .btn-two {
     font-style: normal;
     line-height: 24px;
     color: #344563;
-    margin: 12px 0;
+    margin: 30px 0 20px 0;
+  }
+
+  .lang3 {
+    width: 600px;
   }
 
   .white {
