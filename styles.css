@@ -747,6 +747,7 @@ a .btn-two {
   .instruction {
     display: none;
   }
+
   button:hover {
     transition: background, 1s, ease-in, 0s;
   }
@@ -780,7 +781,4 @@ a .btn-two {
   .my-logo {
     animation: myrotate 5s;
   }
-}
-
-
 }
