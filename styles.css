@@ -747,4 +747,40 @@ a .btn-two {
   .instruction {
     display: none;
   }
+  button:hover {
+    transition: background, 1s, ease-in, 0s;
+  }
+
+  .featured img {
+    transition: all 1s ease-in-out;
+  }
+
+  .featured img:hover {
+    transform: scale(1.05);
+  }
+
+  .desktop-card-works:hover {
+    transform: scale(1.1);
+  }
+
+  .contact-form h2:hover {
+    transform: translate(10px);
+  }
+
+  @keyframes myrotate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(270deg);
+    }
+  }
+
+  .my-logo {
+    animation: myrotate 5s;
+  }
+}
+
+
 }
