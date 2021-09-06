@@ -19,7 +19,7 @@ body {
 .sidebar {
   display: flex;
   flex-direction: column;
-  background-color: rgba(78, 78, 243, 0.8); 
+  background-color: rgba(78, 78, 243, 0.8);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -45,7 +45,7 @@ body {
   margin-left: 24px;
   color: #fff;
   text-decoration: none;
-  font: poppins;
+  font-family: poppins, sans-serif;
   font-size: 32px;
   font-weight: 600;
   font-style: normal;
@@ -59,13 +59,12 @@ body {
   position: absolute;
   left: 85%;
   margin-top: 15px;
-  color: #fff
+  color: #fff;
 }
 
 body.noscroll {
-  overflow:hidden;
-  position:fixed;
-
+  overflow: hidden;
+  position: fixed;
 }
 
 .white {
@@ -481,7 +480,6 @@ a .btn-two {
 }
 
 @media (min-width: 767px) {
-
   .sidebar {
     display: none;
   }
