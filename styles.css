@@ -67,6 +67,101 @@ body.noscroll {
   position: fixed;
 }
 
+.cancels {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: #67798e;
+  font-size: 2rem;
+  margin-left: auto;
+}
+
+.cancels {
+  position: absolute;
+  top: 4.5rem;
+  right: 1rem;
+  z-index: 8;
+}
+
+.modal {
+  width: 100%;
+  height: 100vh;
+  background: rgba(182, 177, 177, 0.5);
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+.show-modal {
+  visibility: visible;
+}
+
+.modal-inner {
+  position: relative;
+  opacity: 1;
+  background: #fff;
+  width: 90%;
+  height: auto;
+  margin: 2rem auto;
+  padding: 1rem 0.5rem;
+}
+
+.modal-title {
+  font-weight: 700;
+  color: #172b4d;
+  font-size: 32px;
+  margin-bottom: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.modal-text {
+  color: #344563;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.modal-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.modal-head {
+  display: flex;
+  align-items: center;
+}
+
+.mr a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+  .source-btn {
+  width: 30%;
+  height: 30px;
+  border: 1px solid #7f8cff;
+  padding: 8px;
+  color: #396df2;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  background-color: #fff;
+
+  }
+
+.modal-img {
+  width: 100%;
+}
+
+
 .white {
   display: flex;
   justify-content: space-between;
@@ -479,6 +574,24 @@ a .btn-two {
   display: none;
 }
 
+.technologies-langu li  {
+  background-color: #ebebff;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-family: poppins, sans-serif;
+  display: inline-block;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.anchor-div a {
+  list-style-type: none;
+  text-decoration: none ;
+  color: #4472e7;
+}
+
+
 @media (min-width: 767px) {
   .sidebar {
     display: none;
@@ -601,6 +714,38 @@ a .btn-two {
 }
 
 @media (min-width: 1000px) {
+  .modal-inner {
+    width: 50%;
+    height: auto;
+    background: #fff;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+  }
+
+  .modal-img-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .modal-img {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .modal-title {
+    margin-bottom: 1rem;
+  }
+
+  .cancels {
+    position: absolute;
+    top: 4.5rem;
+    right: 30%;
+    z-index: 8;
+  }
+
+
   .work-section {
     width: auto;
     height: min-content;
