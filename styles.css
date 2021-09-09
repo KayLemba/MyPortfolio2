@@ -121,8 +121,6 @@ body.noscroll {
   font-family: "poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  /* position: relative; */
-  /* width: 54%; */
 }
 
 .modal-buttons {
@@ -728,8 +726,6 @@ a .btn-two {
   .modal-img-container {
     display: flex;
     justify-content: center;
-    /* margin-bottom: 1rem; */
-    /* height: 51%; */
   }
 
   .modal-img {
@@ -782,7 +778,6 @@ a .btn-two {
     display: inline-block;
     justify-content: space-between;
     margin-right: 20px;
-    /* position: relative; */
     bottom: 105px;
     left: 445px;
   }
