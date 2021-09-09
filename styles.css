@@ -74,11 +74,8 @@ body.noscroll {
   color: #67798e;
   font-size: 2rem;
   margin-left: auto;
-}
-
-.cancels {
   position: absolute;
-  top: 4.5rem;
+  top: 4rem;
   right: 1rem;
   z-index: 8;
 }
@@ -105,8 +102,9 @@ body.noscroll {
   background: #fff;
   width: 90%;
   height: auto;
-  margin: 2rem auto;
-  padding: 1rem 0.5rem;
+  margin: 3rem auto;
+  padding: 2rem 0.5rem;
+  border-radius: 1.6rem;
 }
 
 .modal-title {
@@ -114,14 +112,17 @@ body.noscroll {
   color: #172b4d;
   font-size: 32px;
   margin-bottom: 1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 .modal-text {
+  display: grid;
   color: #344563;
-  font-family: "Inter", sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
+  /* position: relative; */
+  /* width: 54%; */
 }
 
 .modal-buttons {
@@ -129,6 +130,9 @@ body.noscroll {
   align-items: center;
   justify-content: space-between;
   margin-top: 1rem;
+  gap: 9px;
+  bottom: 90px;
+  right: 32px;
 }
 
 .modal-head {
@@ -140,11 +144,11 @@ body.noscroll {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  }
+}
 
-  .source-btn {
-  width: 30%;
-  height: 30px;
+.source-btn {
+  width: 146px;
+  height: 40px;
   border: 1px solid #7f8cff;
   padding: 8px;
   color: #396df2;
@@ -154,13 +158,11 @@ body.noscroll {
   font-family: Poppins, sans-serif;
   font-weight: 500;
   background-color: #fff;
-
-  }
+}
 
 .modal-img {
   width: 100%;
 }
-
 
 .white {
   display: flex;
@@ -216,6 +218,13 @@ body.noscroll {
   margin-right: 20px;
   margin-top: 25px;
   margin-left: 0%;
+}
+
+.anchor-div a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #4472e7;
+  font-size: small;
 }
 
 .social-media li a {
@@ -557,6 +566,17 @@ a .btn-two {
   bottom: 30%;
 }
 
+.technologies-langu li {
+  background-color: #ebebff;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-family: poppins, sans-serif;
+  justify-content: space-between;
+  margin-right: 20px;
+  display: inline-block;
+}
+
 .menu-desktop {
   display: none;
 }
@@ -573,24 +593,6 @@ a .btn-two {
 .desktop-image {
   display: none;
 }
-
-.technologies-langu li  {
-  background-color: #ebebff;
-  padding: 10px;
-  border-radius: 10px;
-  font-weight: 500;
-  font-family: poppins, sans-serif;
-  display: inline-block;
-  justify-content: space-between;
-  margin-right: 20px;
-}
-
-.anchor-div a {
-  list-style-type: none;
-  text-decoration: none ;
-  color: #4472e7;
-}
-
 
 @media (min-width: 767px) {
   .sidebar {
@@ -715,36 +717,95 @@ a .btn-two {
 
 @media (min-width: 1000px) {
   .modal-inner {
-    width: 50%;
-    height: auto;
+    width: 80%;
+    height: 94%;
     background: #fff;
     margin: 2rem auto;
     padding: 1rem 2rem;
+    border-radius: 1.6rem;
   }
 
   .modal-img-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+    /* height: 51%; */
   }
 
   .modal-img {
-    width: 80%;
-    height: 200px;
+    width: 90%;
+    height: 58vh;
     margin: 0 auto;
   }
 
   .modal-title {
     margin-bottom: 1rem;
+    color: #172b4b;
+    font-size: 20px;
+  }
+
+  .modal-head {
+    display: flex;
+    align-items: center;
+    height: 10px;
+    margin-top: 14px;
+  }
+
+  .modal-text {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    color: #344563;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .card-detail-header-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
   }
 
   .cancels {
     position: absolute;
-    top: 4.5rem;
-    right: 30%;
+    top: 1.5rem;
+    right: 12%;
     z-index: 8;
   }
 
+  .technologies-langu li {
+    background-color: #ebebff;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: poppins, sans-serif;
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 20px;
+    /* position: relative; */
+    bottom: 105px;
+    left: 445px;
+  }
+
+  .canopy-js {
+    font-family: poppins, sans-serif;
+    color: #344563;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 16px;
+    margin-right: 10px;
+  }
+
+  .choice-javas {
+    font-family: poppins, sans-serif;
+    color: #7a869a;
+    font-weight: 100;
+    font-size: 8px;
+    line-height: 16px;
+    padding-top: 20px;
+    margin-right: 12px;
+    display: flex;
+  }
 
   .work-section {
     width: auto;
@@ -837,8 +898,6 @@ a .btn-two {
     line-height: 24px;
     position: static;
     margin-bottom: 5px;
-    width: 75px;
-    height: 16px;
     padding-left: 0;
     padding-top: 8px;
     margin-right: 12px;
@@ -857,6 +916,22 @@ a .btn-two {
     position: static;
     padding-top: 8px;
     margin-right: 12px;
+    height: 32px;
+  }
+
+  .anchor-div li {
+    margin-top: 15px;
+  }
+
+  .anchor-div a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #4472e7;
+    font-size: 10px;
+  }
+
+  .popup-description {
+    margin-top: 15px;
   }
 
   .option {
@@ -905,6 +980,7 @@ a .btn-two {
     display: flex;
     align-items: center;
     margin: 10px 0;
+    margin-top: 1px;
   }
 
   .dcanopy2_facebook {
