@@ -7,9 +7,10 @@ https://kaylemba.github.io/MyPortfolio2/
 This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
 # MOBILE VERSION
 ![screenshot](./images/js.png)
+![screenshot](./images/popupmobile.png)
 # DESKTOP VERSION
 ![screenshot](./images/Desktopworkflow.png)
-
+![screenshot](./images/PopupDT.png)
 Additional description about the project and its features.
 In this project I added an about me then lastly I added a contact me form.
 
