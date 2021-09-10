@@ -10,7 +10,6 @@ const modal = document.querySelector('.modal');
 const modalInner = document.querySelector('.modal-inner');
 const width = window.innerWidth;
 const cards = [
-<<<<<<< HEAD
     {
       key: 0,
       name: 'Tonic',
@@ -66,71 +65,16 @@ const cards = [
     let displayModal = '';
     modal.classList.add('show-modal');
     displayModal += `
-=======
-  {
-    key: 0,
-    name: 'Tonic',
-    option: ['CANOPY', 'Back End Dev', '2015'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    featuredImage: './images/photo1dt.png',
-    desktopImage: 'images/photo1dt.png',
-    technologies: ['html', 'css', 'javascript', 'ruby'],
-    linktoliveversion: 'https://kaylemba.github.io/MyPortfolio2/',
-    linktosource: 'https://github.com/KayLemba/MyPortfolio2',
-  },
-  {
-    key: 1,
-    name: 'Multi-post Stories',
-    option: ['FACEBOOK', 'Back End Dev', '2015'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    featuredImage: './images/photo2dt.png',
-    desktopImage: './images/photo2dt.png',
-    technologies: ['html', 'css', 'javascript', 'ruby'],
-    linktoliveversion: 'https://kaylemba.github.io/MyPortfolio2/',
-    linktosource: 'https://github.com/KayLemba/MyPortfolio2',
-  },
-  {
-    key: 2,
-    name: 'FACEBOOK 360',
-    option: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent ',
-    featuredImage: './images/photo3dt.png',
-    desktopImage: './images/photo3dt.png',
-    technologies: ['html', 'css', 'javascript', 'ruby'],
-    linktoliveversion: 'https://kaylemba.github.io/MyPortfolio2/',
-    linktosource: 'https://github.com/KayLemba/MyPortfolio2',
-  },
-  {
-    key: 3,
-    name: 'Uber Navigation',
-    option: ['Uber', 'Lead Developer', '2018'],
-    description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    featuredImage: './images/photo4dt.png',
-    desktopImage: './images/photo4dt.png',
-    technologies: ['html', 'css', 'javascript', 'git hub', 'ruby', 'Bootstrap'],
-    linktoliveversion: 'https://kaylemba.github.io/MyPortfolio2/',
-    linktosource: 'https://github.com/KayLemba/MyPortfolio2',
-  },
-];
-const Openpopup = ({
-  name, description, featuredImage, desktopImage, technologies, linktoliveversion, linktosource, option,
-}) => () => {
-  let displayModal = '';
-  modal.classList.add('show-modal');
-  displayModal += `
->>>>>>> 2f4573c1486b175f77c667ff6911295da8c5de48
          <div class="modal-head">
           <h3 class="modal-title">${name}</h3>
          </div>
          <ul class="card-detail-header-container">
-<<<<<<< HEAD
              <li class="card-detail canopy-modal">${width > 1024 ? option[0] : optionMobile[0]}</li>
              <li class="card-detail canopy-modal option-modal"><img src="images/bullets.png" class="bullets" alt="bullet"> ${width > 1024 ? option[1] : optionMobile[1]}</li>
              <li class="card-detail canopy-modal option-modal"><img src="images/bullets.png" class="bullets" alt="bullet">${width > 1024 ? option[2] : optionMobile[2]} </li>
              
 
              </ul>
-=======
              <li class="card-detail canopy c-js">CANOPY</li>
              <li class="card-detail option choice"><img src="images/bullets.png" alt="bullet"> Back End Dev</li>
              <li class="card-detail option choice"><img src="images/bullets.png" alt="bullet"> 2015</li>
@@ -138,7 +82,6 @@ const Openpopup = ({
             <li class="optiond2_full choice-javas"><img class="bullets" src="images/bullets.png" alt="bullet"> ${option[1] ? option[1] : ''}</li>
             <li class="optiond2_full choice-javas"><img class="bullets" src="images/bullets.png" alt="bullet"> ${option[2] ? option[2] : ''}</li>
           </ul>
->>>>>>> 2f4573c1486b175f77c667ff6911295da8c5de48
 
           <div class='modal-img-container' >
             <img src='${width > 1024 ? desktopImage : featuredImage}' alt="modal picture" class="modal-img">
@@ -194,5 +137,4 @@ function openSideBar() {
 function closeSideBar() {
   sideBar.classList.remove('show-side-bar');
   Body.classList.remove('noscroll');
-
 }
