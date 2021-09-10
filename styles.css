@@ -729,9 +729,14 @@ a .btn-two {
   }
 
   .modal-img {
-    width: 85%;
-    height: 53vh;
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
     margin: 0 auto;
+  }
+
+  .bullets {
+    margin-right: 3px;
   }
 
   .modal-title {
@@ -764,7 +769,8 @@ a .btn-two {
 
   .cancels {
     position: absolute;
-    top: 1.5rem;
+    top: 2rem;
+    font-size: 30px;
     right: 12%;
     z-index: 8;
   }
