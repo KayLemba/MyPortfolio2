@@ -5,7 +5,7 @@ const anchorLink = document.querySelectorAll('.anchor-link');
 const Body = document.querySelector('body');
 
 
-// console.log(document.querySelectorAll('.btns'));
+
 const cancelModal = document.querySelector('.cancels');
 const modal = document.querySelector('.modal');
 const modalInner = document.querySelector('.modal-inner');
@@ -180,7 +180,7 @@ function showWorks() {
     let work = works[k]
     console.log(k);
     let template = document.createElement('template')
-    // if(k % 2 == 0) { console.log(k);
+
     if (k % 2 == 0) {
 
     template.innerHTML = `<div class="project-card desktop">
@@ -217,7 +217,7 @@ function showWorks() {
         </div>
       </div>
     `.trim()
-  // }
+
       
     } else {
       template.innerHTML = `<div class="project-card card-flex">
@@ -253,8 +253,7 @@ function showWorks() {
         <button type="button" class="btn-one btns">See project</button>
       </div>
     </div>
-  `.trim()
-// }     
+  `.trim()    
     }
     let child = template.content.firstChild
     grab('work').appendChild(child)
