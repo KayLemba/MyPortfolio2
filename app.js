@@ -14,6 +14,7 @@ const cards = [
       key: 0,
       name: 'Tonic',
       option: ['CANOPY', 'Back End Dev', '2015'],
+      optionMobile: ['CANOPY', 'Back End Dev', '2015'],
       description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
       featuredImage: './images/photo1dt.png',
       desktopImage: 'images/photo1dt.png',
@@ -25,6 +26,7 @@ const cards = [
       key: 1,
       name: 'Multi-post Stories',
       option: ['FACEBOOK', 'Back End Dev', '2015'],
+      optionMobile: ['CANOPY', 'Back End Dev', '2015'],
       description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
       featuredImage: './images/photo2dt.png',
       desktopImage: './images/photo2dt.png',
@@ -36,6 +38,7 @@ const cards = [
       key: 2,
       name: 'FACEBOOK 360',
       option: ['FACEBOOK', 'Full Stack Dev', '2015'],
+      optionMobile: ['CANOPY', 'Back End Dev', '2015'],
       description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent ',
       featuredImage: './images/photo3dt.png',
       desktopImage: './images/photo3dt.png',
@@ -47,6 +50,7 @@ const cards = [
       key: 3,
       name: 'Uber Navigation',
       option: ['Uber', 'Lead Developer', '2018'],
+      optionMobile: ['CANOPY', 'Back End Dev', '2015'],
       description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
       featuredImage: './images/photo4dt.png',
       desktopImage: './images/photo4dt.png',
@@ -56,7 +60,7 @@ const cards = [
     },
   ];
   const Openpopup = ({ 
-      name, description, featuredImage, desktopImage, technologies, linktoliveversion, linktosource, option
+      name, description, featuredImage, desktopImage, technologies, linktoliveversion, linktosource, option, optionMobile
   }) => () => {
     let displayModal = '';
     modal.classList.add('show-modal');
@@ -65,13 +69,12 @@ const cards = [
           <h3 class="modal-title">${name}</h3>
          </div>
          <ul class="card-detail-header-container">
-             <li class="card-detail canopy c-js">CANOPY</li>
-             <li class="card-detail option choice"><img src="images/bullets.png" alt="bullet"> Back End Dev</li>
-             <li class="card-detail option choice"><img src="images/bullets.png" alt="bullet"> 2015</li>
-            <li class="dcanopy2_face canopy-js">${option[0]}</li>
-            <li class="optiond2_full choice-javas"><img class="bullets" src="images/bullets.png" alt="bullet"> ${option[1]?option[1]:""}</li>
-            <li class="optiond2_full choice-javas"><img class="bullets" src="images/bullets.png" alt="bullet"> ${option[2]?option[2]:""}</li>
-          </ul>
+             <li class="card-detail canopy-modal">${width > 1024 ? option[0] : optionMobile[0]}</li>
+             <li class="card-detail canopy-modal option-modal"><img src="images/bullets.png" class="bullets" alt="bullet"> ${width > 1024 ? option[1] : optionMobile[1]}</li>
+             <li class="card-detail canopy-modal option-modal"><img src="images/bullets.png" class="bullets" alt="bullet">${width > 1024 ? option[2] : optionMobile[2]} </li>
+             
+
+             </ul>
 
           <div class='modal-img-container' >
             <img src='${width > 1024 ? desktopImage : featuredImage}' alt="modal picture" class="modal-img">

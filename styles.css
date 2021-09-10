@@ -323,15 +323,39 @@ body.noscroll {
   margin-right: 12px;
 }
 
+.option-modal {
+  font-family: poppins, sans-serif;
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  /* width: 88px; */
+  padding-top: 8px;
+  margin-right: 12px; 
+}
+
 .canopy {
   font-family: poppins, sans-serif;
   color: #344563;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  position: static;
-  width: 55px;
+  /* position: static; */
+  /* width: 55px; */
   height: 16px;
+  padding-left: 0;
+  padding-top: 8px;
+  margin-right: 12px;
+}
+
+.canopy-modal {
+  font-family: poppins, sans-serif;
+  color: #344563;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  /* width: 55px; */
+  /* height: 16px; */
   padding-left: 0;
   padding-top: 8px;
   margin-right: 12px;
@@ -808,6 +832,21 @@ a .btn-two {
     display: flex;
   }
 
+  
+.option-modal {
+  /* font-family: poppins, sans-serif; */
+  color: #7a869a;
+  /* font-weight: 600; */
+  font-size: 12px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  /* line-height: 16px; */
+  /* width: 88px; */
+  /* position: static; */
+  /* padding-top: 8px; */
+  /* margin-right: 12px;  */
+}
   .work-section {
     width: auto;
     height: min-content;
