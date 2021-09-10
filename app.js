@@ -181,6 +181,8 @@ function showWorks() {
     console.log(k);
     let template = document.createElement('template')
     // if(k % 2 == 0) { console.log(k);
+    if (k % 2 == 0) {
+
     template.innerHTML = `<div class="project-card desktop">
         <div class="mobile-image">
           <img src="${work.imgMobile}" alt="First Card">
@@ -216,7 +218,44 @@ function showWorks() {
       </div>
     `.trim()
   // }
+      
+    } else {
+      template.innerHTML = `<div class="project-card card-flex">
+      <div class="mobile-image">
+        <img src="${work.imgMobile}" alt="First Card">
+      </div>
+      <div class="desktop-image">
+        <img src="${work.imgDesktop}" alt="First card-desktop">
+      </div>
 
+
+      <div class="contents">
+        <h2 class="head">${work.title}</h2>
+        <h4 class="desktop_show">${work.title}</h4>
+        <div class="card-detail-box">
+          <ul class="cards-container">
+            <li class="card-detail canopy">${work.options[0]}</li>
+            <li class="card-detail option  "><img src="images/bullets.png" alt="bullet"> ${work.options[1]}</li>
+            <li class="card-detail option"><img src="images/bullets.png" alt="bullet"> ${work.options[2]}</li>
+
+            <li class="card-detail dcanopy2_face">${work.options[0]}</li>
+            <li class="card-detail optiond2_full"><img src="images/bullets.png" alt="bullet"> ${work.options[1]}</li>
+            <li class="card-detail optiond2_full"><img src="images/bullets.png" alt="bullet"> ${work.options[2]}</li>
+          </ul>
+
+          <p class="instruction">${work.description}</p>
+          <p class="instruction-show">${work.description}</p>
+
+          <div class="language1 inline">
+            <ul>${work.languages}</ul>
+          </div>
+        </div>
+        <button type="button" class="btn-one btns">See project</button>
+      </div>
+    </div>
+  `.trim()
+// }     
+    }
     let child = template.content.firstChild
     grab('work').appendChild(child)
   }
