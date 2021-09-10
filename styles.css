@@ -330,7 +330,7 @@ body.noscroll {
   font-size: 13px;
   line-height: 16px;
   padding-top: 8px;
-  margin-right: 12px; 
+  margin-right: 12px;
 }
 
 .canopy {
@@ -827,21 +827,14 @@ a .btn-two {
     display: flex;
   }
 
-  
-.option-modal {
-  /* font-family: poppins, sans-serif; */
-  color: #7a869a;
-  /* font-weight: 600; */
-  font-size: 12px;
-  margin-left: 10px;
-  display: flex;
-  align-items: center;
-  /* line-height: 16px; */
-  /* width: 88px; */
-  /* position: static; */
-  /* padding-top: 8px; */
-  /* margin-right: 12px;  */
-}
+  .option-modal {
+    color: #7a869a;
+    font-size: 12px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+
   .work-section {
     width: auto;
     height: min-content;
