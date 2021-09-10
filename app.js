@@ -69,8 +69,8 @@ const cards = [
              <li class="card-detail option choice"><img src="images/bullets.png" alt="bullet"> Back End Dev</li>
              <li class="card-detail option choice"><img src="images/bullets.png" alt="bullet"> 2015</li>
             <li class="dcanopy2_face canopy-js">${option[0]}</li>
-            <li class="optiond2_full choice-javas"><img src="images/bullets.png" alt="bullet">${option[1]?option[1]:""}</li>
-            <li class="optiond2_full choice-javas"><img src="images/bullets.png" alt="bullet">${option[2]?option[2]:""}</li>
+            <li class="optiond2_full choice-javas"><img class="bullets" src="images/bullets.png" alt="bullet"> ${option[1]?option[1]:""}</li>
+            <li class="optiond2_full choice-javas"><img class="bullets" src="images/bullets.png" alt="bullet"> ${option[2]?option[2]:""}</li>
           </ul>
 
           <div class='modal-img-container' >
