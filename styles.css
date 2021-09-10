@@ -329,7 +329,6 @@ body.noscroll {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  /* width: 88px; */
   padding-top: 8px;
   margin-right: 12px; 
 }
@@ -340,8 +339,6 @@ body.noscroll {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  /* position: static; */
-  /* width: 55px; */
   height: 16px;
   padding-left: 0;
   padding-top: 8px;
@@ -354,8 +351,6 @@ body.noscroll {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  /* width: 55px; */
-  /* height: 16px; */
   padding-left: 0;
   padding-top: 8px;
   margin-right: 12px;
